@@ -5,7 +5,7 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #000000;
 }
 
 
@@ -18,6 +18,7 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  font-family: 'Crimson Text', serif;
   bottom: 3rem;
   z-index: 10;
 }
@@ -74,6 +75,7 @@ body {
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
   .carousel-caption p {
+    font-family: 'IBM Plex Sans', sans-serif;
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
@@ -90,8 +92,8 @@ body {
   }
 }
 .navbar {
-  background-color: #19B5FE;
+  background-color: #000000;
 }
-.h1 {
-  font-family: 'Crimson Text', serif;
+.header{
+  text: #FFFFFF
 }
