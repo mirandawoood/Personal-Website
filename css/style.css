@@ -89,3 +89,9 @@ body {
     margin-top: 7rem;
   }
 }
+.navbar {
+  background-color: #19B5FE;
+}
+.h1 {
+  font-family: 'Crimson Text', serif;
+}
