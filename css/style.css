@@ -7,6 +7,9 @@ body {
   padding-bottom: 3rem;
   color: #000000;
   font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+
 }
 
 
@@ -20,7 +23,7 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   font-family: 'Quicksand', sans-serif;
-  bottom: 3rem;
+  bottom: 2rem;
   z-index: 10;
 }
 
@@ -88,19 +91,28 @@ body {
     line-height: 1.4;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+    padding: 3rem;
+    font-size: 50px;
+  }
+  .featurette p {
+    padding: 2rem;
+    font-size: 20px;
   }
 }
 .navbar {
   background-color: #FFFFFF;
+  text: #000000;
 }
+.lists {
+  padding: 50px;
+  padding-left: 750px;
+
+}
+
+
 
 
 #rounded-circle-content {
@@ -109,8 +121,4 @@ body {
 
 #rounded-circle-content p {
   margin-top: 20px;
-}
-
-#li {
-  margin-left: 50px;
 }
