@@ -57,8 +57,11 @@ body {
 /* Featurettes
 ------------------------- */
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+.h1 {
+  margin: 10rem 0; /* Space out the Bootstrap <hr> more */
+}
+.div{
+  font-family: sans-serif;
 }
 
 /* Thin out the marketing headings */
@@ -66,7 +69,6 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
-  font:
 }
 
 
