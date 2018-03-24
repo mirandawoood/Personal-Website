@@ -108,12 +108,18 @@ body {
 }
 .lists {
   padding: 50px;
-  padding-left: 750px;
+  padding-left: 10px;
 
 }
 
 
+#carousel-item {
+    background: url(orange.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 
+}
 
 #rounded-circle-content {
   margin-top: 20px;
