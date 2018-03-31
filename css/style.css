@@ -128,3 +128,13 @@ body {
 #rounded-circle-content p {
   margin-top: 20px;
 }
+label {
+  width: 100%;
+}
+.row #submit_button {
+  margin: 10px 0 25px 0;
+}
+
+#contact_form .row {
+  margin-left: 0!important;
+}
